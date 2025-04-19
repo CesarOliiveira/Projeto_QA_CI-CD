@@ -7,8 +7,12 @@ class TestMathUtils(unittest.TextCase):
     self.assertEqual(add(-1, 1), 0)
 
   def test_subtract(self):
-      self.assertEqual(subtract(10, 5), 5)
-      self.assertEqual(subtract(0, 0), 0)
+    self.assertEqual(subtract(10, 5), 5)
+    self.assertEqual(subtract(0, 0), 0)
 
-if __name__ -- '__main__':
+  def test_multiplication(self):
+      self.assertEqual(subtract(10, 2), 20)
+      self.assertEqual(subtract(4, 2), 8)
+
+if __name__ == '__main__':
   unittest.main()
